@@ -13,7 +13,6 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "67fab31e79bca31eee0f3637",
   "plugins": [
     {
       "plugin": "@nx/react/router-plugin",
@@ -72,7 +71,8 @@
       },
       "library": {
         "style": "tailwind",
-        "linter": "eslint"
+        "linter": "eslint",
+        "unitTestRunner": "vitest"
       }
     }
   }
