@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@office-automation/inbox": ["libs/inbox/src/index.ts"]
+      "@office-automation/app-core": [
+        "libs/shared/utils/app-core/src/index.ts"
+      ],
+      "@office-automation/inbox": ["libs/inbox/src/index.ts"],
+      "@office-automation/layout": ["libs/shared/ui/layout/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
